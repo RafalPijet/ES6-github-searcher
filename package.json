@@ -1,0 +1,30 @@
+{
+  "name": "es6-github-searcher",
+  "version": "1.0.0",
+  "description": "searcher users on github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafalPijet/ES6-github-searcher.git",
+    "build": "babel script.js --watch --out-file build.js"
+  },
+  "keywords": [
+    "users",
+    "github",
+    "searcher"
+  ],
+  "author": "LopezPL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafalPijet/ES6-github-searcher/issues"
+  },
+  "homepage": "https://github.com/RafalPijet/ES6-github-searcher#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
